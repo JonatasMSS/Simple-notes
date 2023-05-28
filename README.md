@@ -25,10 +25,6 @@ O projeto foi desenvolvido durante o bootcamp da AWS na DIO e consiste em um web
 
 - AWS (Amazon Web Services)
 
-## Funcionalidades Principais
-
-Descreva as principais funcionalidades do projeto de forma clara e concisa. Inclua capturas de tela ou gifs animados, se possível.
-
 ## Pré-requisitos
 
 Liste todos os pré-requisitos necessários para executar o projeto, como softwares, configurações e permissões.
