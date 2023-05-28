@@ -40,9 +40,6 @@ Liste todos os pré-requisitos necessários para executar o projeto, como softwa
 
 ## Configuração
 
-
-
-
 ### Variáveis de ambiente - Server
 
 Crie um `.env`
@@ -69,19 +66,8 @@ NEXT_PUBLIC_CLIENT_ID = [O Public ID do Cognito ]
 NEXT_PUBLIC_REDIRECT_URI = "http://localhost:3000/api/auth/callback"
 ~~~~
 
-## Uso
+## Contato
 
-Explique como usar o projeto. Forneça exemplos de código, comandos ou instruções para demonstrar a funcionalidade do projeto.
+Gostou? Me segue no linkedIn 😉😉
+https://www.linkedin.com/in/jonatasmss/
 
-## Contribuição
-
-Explique como outras pessoas podem contribuir com o projeto. Inclua orientações sobre como abrir problemas (issues) e enviar solicitações de pull (pull requests).
-
-## Autor
-
-- Nome: [Seu nome]
-- GitHub: [Seu perfil no GitHub]
-
-## Licença
-
-Descreva a licença sob a qual o projeto está disponível.
