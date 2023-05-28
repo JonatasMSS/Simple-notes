@@ -25,10 +25,6 @@ O projeto foi desenvolvido durante o bootcamp da AWS na DIO e consiste em um web
 
 - AWS (Amazon Web Services)
 
-## Pré-requisitos
-
-Liste todos os pré-requisitos necessários para executar o projeto, como softwares, configurações e permissões.
-
 ## Instalação
 
 1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
