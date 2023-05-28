@@ -62,6 +62,10 @@ NEXT_PUBLIC_CLIENT_ID = [O Public ID do Cognito ]
 NEXT_PUBLIC_REDIRECT_URI = "http://localhost:3000/api/auth/callback"
 ~~~~
 
+## Execução
+
+Agora basta abrir a pasta `web` e executar `npm run dev`. Execute o mesmo dentro da pasta `server`
+
 ## Contato
 
 Gostou? Me segue no linkedIn 😉😉
