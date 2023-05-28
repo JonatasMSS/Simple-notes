@@ -40,11 +40,12 @@ Liste todos os pré-requisitos necessários para executar o projeto, como softwa
 
 ## Configuração
 
-Antes de executar o projeto, é necessário configurar as variáveis de ambiente.
+
+
 
 ### Variáveis de ambiente - Server
 
-Em `.env`
+Crie um `.env`
 
 ~~~shell script
 
@@ -57,6 +58,16 @@ PUBLIC_ID_CLIENT = [O Public ID do Cognito User Pool]
 REDIRECT_URL = "localhost:3000/api/auth/callback" [A url de redirecionamento - De preferência mantenha semelhantemente assim - Se alterar no cognito altere-a aqui]
 
 ~~~
+
+### Variáveis de Ambiente - Web
+
+Crie um `.env.local`
+
+~~~~shell script
+NEXT_PUBLIC_CONGNITO_USERS_URL = [Url de access ao user pool do cognito]
+NEXT_PUBLIC_CLIENT_ID = [O Public ID do Cognito ]
+NEXT_PUBLIC_REDIRECT_URI = "http://localhost:3000/api/auth/callback"
+~~~~
 
 ## Uso
 
