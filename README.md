@@ -32,8 +32,11 @@ Liste todos os pré-requisitos necessários para executar o projeto, como softwa
 ## Instalação
 
 1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
-2. Acesse o diretório do projeto: `cd seu-projeto`
-3. Instale as dependências: `npm install` ou `yarn install`
+2. Acesse a pasta `web`: `cd web`
+3. Instale as dependências da pasta `web`: `npm install` ou `yarn install`
+4. Volte à pasta raiz do projeto: `cd ..`
+5. Acesse a pasta `server`: `cd server`
+6. Instale as dependências da pasta `server`: `npm install` ou `yarn install`
 
 ## Configuração
 
