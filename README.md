@@ -40,7 +40,23 @@ Liste todos os pré-requisitos necessários para executar o projeto, como softwa
 
 ## Configuração
 
-Descreva as etapas necessárias para configurar o ambiente de desenvolvimento, como configurações de banco de dados, chaves de API, etc.
+Antes de executar o projeto, é necessário configurar as variáveis de ambiente.
+
+### Variáveis de ambiente - Server
+
+Em `.env`
+
+~~~shell script
+
+DATABASE_URL="file:./dev.db"
+SECRET_KEY_JWT = [Chave de assinatura JWT]
+COGNITO_USER_POOL_URL = [Url de acesso ao user pool do cognito]
+
+SECRET_ID_CLIENT = [O Secret ID Configurado no Cognito - É preciso habilitar essa função na criação do user pool]
+PUBLIC_ID_CLIENT = [O Public ID do Cognito User Pool]
+REDIRECT_URL = "localhost:3000/api/auth/callback" [A url de redirecionamento - De preferência mantenha semelhantemente assim - Se alterar no cognito altere-a aqui]
+
+~~~
 
 ## Uso
 
